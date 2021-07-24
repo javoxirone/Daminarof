@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1322px) {
+	header .banner button.slick-next.slick-arrow {
+		display: none !important;
+	}
+	header .banner button.slick-prev.slick-arrow {
+		display: none !important;
+	}
+	section.contact-form .cart-location .location {
+		margin-left: 0px;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	header section.menu .menu-nav ul {
+		margin: 0px;
+	}
+	header section.menu .menu-nav .search .search-box {
+		min-width: 200px;
+	}
+	main section.about .main-content .small-bg {
+		min-width: 50%;
+	}
+	section.partners .partners-item, section.partners .partners-item2 {
+		padding: 0px 6px;
+	}
+	section.partners .partners-item .icon, section.partners .partners-item2 .icon {
+		margin-right: 20px;
+	}
+	section.partners .partners-item .text p, section.partners .partners-item2 .text p {
+		padding-right: 0;
+	}
+}

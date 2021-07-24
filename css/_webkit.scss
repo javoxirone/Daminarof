@@ -1,0 +1,134 @@
+header section.menu .menu-nav .searchcontainer.open .icon-search {
+	background-image: url(../img/close.png);
+}
+header section.menu .menu-nav .search.active {
+	transform: scaleX(1);
+}
+header .banner button.slick-prev.slick-arrow {
+	text-indent: -9999px;
+	background: transparent;
+	background-image: url(../img/prev.png);
+	background-repeat: no-repeat;
+	width: 56px;
+	height: 56px;
+	background-position: center;
+	padding: $p0;
+	position: absolute;
+	left: -86px;
+	border: 3px solid #fff;
+	-webkit-transition:all 0.5s;
+}
+header .banner button.slick-prev.slick-arrow:hover {
+	background-image: url(../img/prev-active.png);
+	background-color: #FFEA39;
+	transition: 0.5s;
+	border: 3px solid #FFEA39;
+}
+header .banner button.slick-next.slick-arrow {
+	text-indent: -9999px;
+	background: transparent;
+	background-image: url(../img/next.png);
+	background-repeat: no-repeat;
+	width: 56px;
+	height: 56px;
+	background-position: center;
+	padding: $p0;
+	position: absolute;
+	right: -86px;
+	border: 3px solid #fff;
+	-webkit-transition:all 0.5s;
+}
+header .banner button.slick-next.slick-arrow:hover {
+	background-image: url(../img/next-active.png);
+	background-color: #FFEA39;
+	border: 3px solid #FFEA39;
+	transition: 0.5s;
+}
+main .carousel-products button.slick-prev.slick-arrow {
+	text-indent: -9999px;
+	background: transparent;
+	background-image: url(../img/prev-icon.png);
+	background-repeat: no-repeat;
+	width: 56px;
+	height: 56px;
+	background-position: center;
+	padding: $p0;
+	position: absolute;
+	right: 70px;
+	top: -75px;
+	border: 1px solid #2175C8;
+	-webkit-transition:all 0.5s;
+}
+main .carousel-products button.slick-prev.slick-arrow:hover {
+	background-image: url(../img/prev.png);
+	background-color: #2175C8;
+	border: 1px solid #2175C8;
+	transition: 0.5s;
+}
+main .carousel-products button.slick-next.slick-arrow {
+	text-indent: -9999px;
+	background: transparent;
+	background-image: url(../img/next-icon.png);
+	background-repeat: no-repeat;
+	width: 56px;
+	height: 56px;
+	background-position: center;
+	padding: $p0;
+	position: absolute;
+	right: 15px;
+	top: -75px;
+	border: 1px solid #2175C8;
+	-webkit-transition:all 0.5s;
+}
+main .carousel-products button.slick-next.slick-arrow:hover {
+	background-image: url(../img/next.png);
+	background-color: #2175C8;
+	border: 1px solid #2175C8;
+	transition: 0.5s;
+}
+main .partners-carousel .slick-dots > li > button {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: block;
+  text-indent: -3000vw;
+  background: transparent;
+  padding: 0;
+  -webkit-transition: all 200ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: all 200ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  border: none;
+  background-color: #8C8C8C;
+  margin: 4px;
+}
+main .partners-carousel .slick-dots > li.slick-active > button {
+  background-color: #2175C8;
+}
+main .partners-carousel ul.slick-dots {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    margin: 0;
+    right: 0;
+    left: 0;
+    justify-content: center;
+}
+#topcontrol {
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	cursor: pointer;
+	z-index: 9999;
+}
+#topcontrol .btn.btn-special {
+    background: #3399cc80;
+    border-radius: 0;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+#topcontrol .fa.fa-angle-up {
+    color: #fff;
+    font-size: 28px;
+}
